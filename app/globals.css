@@ -1,12 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('../public/assets/Fonts/WEB/css/panchang.css');
 
 body {
   color: #fff;
   background-color: #0A0A0A;
-  background-image: url('../public/ellipse_1.svg'), url('../public/ellipse_2.svg');
-  background-position: left top, right top;
-  background-repeat: no-repeat, no-repeat;
+  background-image: url('../public/ellipse_1.svg'), url('../public/ellipse_2.svg'), url('../public/ellipse_3.svg'), url('../public/ellipse_4.svg');
+  background-position: left top, right top, left bottom, right bottom;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
   min-height: 100vh;
 }
