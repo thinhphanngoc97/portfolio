@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className='pb-20 lg:pb-40'>
+    <div className='pb-20 lg:pb-40 container mx-auto px-4'>
       <div
         className='lg:mt-40 text-lg md:text-3xl lg:text-5xl'
         style={{ fontFamily: 'Panchang-Regular' }}
@@ -102,7 +102,7 @@ export default function Home() {
             <div className='mt-1 text-gray-400'>August 2021</div>
             <div className='mt-4'>A customizable cake website</div>
             <Link
-              href={''}
+              href={'/project/sugarland'}
               className='bg-white text-black px-4 py-2 flex items-center rounded-full mt-6'
             >
               VIEW CASE

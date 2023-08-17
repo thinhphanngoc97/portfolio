@@ -1,9 +1,8 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function AboutMe() {
   return (
-    <div className='pb-20 lg:pb-40'>
+    <div className='pb-20 lg:pb-40 container mx-auto px-4'>
       <div className='lg:mt-20 flex flex-col lg:flex-row gap-5'>
         <div
           className='text-lg md:text-3xl lg:text-5xl flex-1'
