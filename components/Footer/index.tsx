@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function Footer() {
   return (
-    <footer className='container mx-auto px-4 relative'>
+    <footer className='container mx-auto px-4 relative text-sm lg:text-lg'>
       <Image
         className='absolute -top-8 -left-10'
         alt=''
