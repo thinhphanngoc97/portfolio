@@ -22,7 +22,7 @@ export function Footer() {
           <Image
             className='inline ml-3'
             alt=''
-            src='/arrow_left.svg'
+            src='/arrow_right.svg'
             width={26}
             height={18}
           />

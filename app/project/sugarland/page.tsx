@@ -6,7 +6,7 @@ export default function SugarLand() {
   const [persona, setPersona] = useState(1);
 
   return (
-    <div className='pb-20 lg:pb-40 overflow-hidden'>
+    <div className='pb-10 lg:pb-20 overflow-hidden'>
       <div className='container mx-auto px-4'>
         <div
           className='lg:mt-20 text-lg md:text-4xl lg:text-5xl flex-1'
@@ -41,7 +41,7 @@ export default function SugarLand() {
             height={44}
           />
           <div
-            className='text-xl lg:text-4xl'
+            className='text-2xl lg:text-4xl'
             style={{ fontFamily: 'Panchang-Regular' }}
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>Project Overview</p>
@@ -97,7 +97,7 @@ export default function SugarLand() {
           height={44}
         />
         <div
-          className='text-xl lg:text-4xl'
+          className='text-2xl lg:text-4xl'
           style={{ fontFamily: 'Panchang-Regular' }}
         >
           <p style={{ fontFamily: 'Panchang-Semibold' }}>User Research</p>
@@ -159,7 +159,7 @@ export default function SugarLand() {
             height={44}
           />
           <div
-            className='text-xl lg:text-4xl'
+            className='text-2xl lg:text-4xl'
             style={{ fontFamily: 'Panchang-Regular' }}
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>
@@ -217,7 +217,7 @@ export default function SugarLand() {
             height={44}
           />
           <div
-            className='text-xl lg:text-4xl'
+            className='text-2xl lg:text-4xl'
             style={{ fontFamily: 'Panchang-Regular' }}
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>Personas</p>
@@ -254,7 +254,7 @@ export default function SugarLand() {
             height={44}
           />
           <div
-            className='text-xl lg:text-4xl'
+            className='text-2xl lg:text-4xl'
             style={{ fontFamily: 'Panchang-Regular' }}
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>Empathy Map</p>
@@ -298,7 +298,7 @@ export default function SugarLand() {
             height={44}
           />
           <div
-            className='text-xl lg:text-4xl'
+            className='text-2xl lg:text-4xl'
             style={{ fontFamily: 'Panchang-Regular' }}
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>User Journey Map</p>
@@ -331,7 +331,7 @@ export default function SugarLand() {
             height={44}
           />
           <div
-            className='text-xl lg:text-4xl'
+            className='text-2xl lg:text-4xl'
             style={{ fontFamily: 'Panchang-Regular' }}
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>
@@ -359,7 +359,7 @@ export default function SugarLand() {
             height={44}
           />
           <div
-            className='text-xl lg:text-4xl'
+            className='text-2xl lg:text-4xl'
             style={{ fontFamily: 'Panchang-Regular' }}
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>Main Userflow</p>
@@ -384,7 +384,7 @@ export default function SugarLand() {
           height={44}
         />
         <div
-          className='text-xl lg:text-4xl'
+          className='text-2xl lg:text-4xl'
           style={{ fontFamily: 'Panchang-Regular' }}
         >
           <p style={{ fontFamily: 'Panchang-Semibold' }}>Wireframe</p>
@@ -409,7 +409,7 @@ export default function SugarLand() {
             height={44}
           />
           <div
-            className='text-xl lg:text-4xl'
+            className='text-2xl lg:text-4xl'
             style={{ fontFamily: 'Panchang-Regular' }}
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>Branding</p>
@@ -435,7 +435,7 @@ export default function SugarLand() {
             height={44}
           />
           <div
-            className='text-xl lg:text-4xl'
+            className='text-2xl lg:text-4xl'
             style={{ fontFamily: 'Panchang-Regular' }}
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>
@@ -501,7 +501,7 @@ export default function SugarLand() {
       <div>
         <div className='container mx-auto px-4'>
           <Image
-            className='w-full object-cover'
+            className='w-full object-cover rounded-2xl'
             alt=''
             src='/sugarland/18.svg'
             width={0}
