@@ -67,7 +67,7 @@ export default function Home() {
             <div className='mt-1 text-gray-400'>August 2021</div>
             <div className='mt-4'>A learning English app for children</div>
             <Link
-              href={''}
+              href={'/project/lingood'}
               className='bg-white text-black px-4 py-2 flex items-center rounded-full mt-6'
             >
               VIEW CASE

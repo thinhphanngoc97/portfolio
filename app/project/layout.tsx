@@ -19,7 +19,7 @@ export default function ProjectLayout({
       {children}
       <div className='container px-4 mx-auto'>
         <div className='flex flex-wrap items-center gap-5 lg:gap-10'>
-          <div className='text-lg lg:text-2xl'> RELATED WORK</div>
+          <div className='text-xl lg:text-2xl font-semibold'> RELATED WORK</div>
           <div className='flex gap-3'>
             <button
               ref={navigationPrevRef}
