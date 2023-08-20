@@ -21,7 +21,7 @@ export default function SugarLand() {
             elegant and eye-catching
           </p>
         </div>
-        <div className='mt-10 lg:mt-20 px-4 lg:px-14'>
+        <div className='mt-10 lg:mt-20 lg:-mx-14'>
           <Image
             className='inline -z-10 relative w-full object-cover'
             alt='Sugarland'
