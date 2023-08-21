@@ -281,14 +281,7 @@ export default function SugarLand() {
           </div>
         </div>
       </div>
-      <div className='container mx-auto px-4 relative py-10 lg:py-20'>
-        <Image
-          className='absolute top-10 lg:top-20 -left-10'
-          alt=''
-          src='/icon_star_3.svg'
-          width={44}
-          height={44}
-        />
+      <div className='relative'>
         <Image
           className='absolute bottom-0 right-0'
           alt=''
@@ -296,38 +289,46 @@ export default function SugarLand() {
           width={120}
           height={232}
         />
-        <div
-          className='text-2xl lg:text-4xl'
-          style={{ fontFamily: 'Panchang-Regular' }}
-        >
-          <p style={{ fontFamily: 'Panchang-Semibold' }}>Key feature</p>
-        </div>
-        <div className='mt-4 lg:mt-8 grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-10'>
-          <div>
-            <ul className='ml-4 list-disc space-y-2'>
-              <li>Lesson content: topics about life around</li>
-              <li>
-                Games, challenges: review vocabulary, practice English skills.
-              </li>
-              <li>
-                The learning path is designed through the form of unlocking.
-              </li>
-              <li>There is AI voice analysis.</li>
-              <li>The text is displayed according to the voice.</li>
-            </ul>
+        <div className='container mx-auto px-4 relative py-10 lg:py-20'>
+          <Image
+            className='absolute top-10 lg:top-20 -left-10'
+            alt=''
+            src='/icon_star_3.svg'
+            width={44}
+            height={44}
+          />
+          <div
+            className='text-2xl lg:text-4xl'
+            style={{ fontFamily: 'Panchang-Regular' }}
+          >
+            <p style={{ fontFamily: 'Panchang-Semibold' }}>Key feature</p>
           </div>
-          <div>
-            <ul className='ml-4 list-disc space-y-2'>
-              <li>Introduce vocabulary by touch interaction feature.</li>
-              <li>Bookie character accompanies the child.</li>
-              <li>Tasks and challenges are updated every day.</li>
-              <li>Rewards in the form of encrypted money.</li>
-              <li>Time limit for use within 15-20 minutes.</li>
-            </ul>
+          <div className='mt-4 lg:mt-8 grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-10'>
+            <div>
+              <ul className='ml-4 list-disc space-y-2'>
+                <li>Lesson content: topics about life around</li>
+                <li>
+                  Games, challenges: review vocabulary, practice English skills.
+                </li>
+                <li>
+                  The learning path is designed through the form of unlocking.
+                </li>
+                <li>There is AI voice analysis.</li>
+                <li>The text is displayed according to the voice.</li>
+              </ul>
+            </div>
+            <div>
+              <ul className='ml-4 list-disc space-y-2'>
+                <li>Introduce vocabulary by touch interaction feature.</li>
+                <li>Bookie character accompanies the child.</li>
+                <li>Tasks and challenges are updated every day.</li>
+                <li>Rewards in the form of encrypted money.</li>
+                <li>Time limit for use within 15-20 minutes.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-
       <div className='bg-white py-7 lg:py-14 text-black'>
         <div className='container mx-auto px-4 relative'>
           <Image
