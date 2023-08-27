@@ -82,8 +82,8 @@ export default function ProjectLayout({
         >
           {worksList.map((item, index) => {
             return (
-              <SwiperSlide key={index}>
-                <div className='border border-white rounded-lg overflow-hidden'>
+              <SwiperSlide key={index} className='!h-auto'>
+                <div className='border border-white rounded-lg overflow-hidden h-full'>
                   <Image
                     alt={item.name}
                     src={item.thumbnail}

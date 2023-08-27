@@ -13,7 +13,7 @@ const config: Config = {
         md: '768px',
         lg: '990px',
         xl: '1054px',
-        '2xl': '1536px'
+        '2xl': '1400px'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
