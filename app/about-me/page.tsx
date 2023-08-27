@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function AboutMe() {
   return (
@@ -56,6 +57,14 @@ export default function AboutMe() {
             <br />
             <br />
             handoan6299@gmail.com
+            <br />
+            <Link href={'/'} className='underline underline-offset-2'>
+              Dribble
+            </Link>
+            <br />
+            <Link href={'/'} className='underline underline-offset-2'>
+              Behance
+            </Link>
           </p>
         </div>
       </div>
@@ -63,29 +72,73 @@ export default function AboutMe() {
         <div>
           <div
             className='text-2xl lg:text-3xl'
-            style={{ fontFamily: 'Panchang-Regular' }}
+            style={{ fontFamily: 'Panchang-Semibold' }}
           >
             Experience
           </div>
           <div className='mt-7'>
-            <span className='text-xl'>UX/UI DESIGNER,</span> TGL Solutions
+            <span className='text-xl font-semibold'>UX/UI DESIGNER</span> | TGL
+            Solutions | Full-time
           </div>
           <div className='mt-2'>Oct 2021 - Present</div>
           <div className='border-t border-white mt-4 pt-3 pl-7'>
             <ul className='list-disc space-y-3'>
               <li>
-                Collaborated with the project leader and team to research and
-                create wireframes and user flow that meet the user needs and
-                project goals.
+                Rebranded for the company, which includes brand identity,
+                mascot, a website, social media templates,...
               </li>
               <li>
-                Designed visual concepts, components, design system, UI design,
-                prototype, and interaction design that are consistent,
-                intuitive, and user-friendly.
+                Created logo and website for the company&apos;s head office in
+                Japan and a branch in Da Nang.
               </li>
               <li>
-                Delivered the design to the developers and work closely with
-                them to ensure the product quality and functionality.
+                Worked on various projects, including an HRM system and other
+                outsourcing projects.
+              </li>
+              <li>
+                Contributed to bringing the Coteccons Academy online learning
+                platform with a 100% customer satisfaction rate compared to two
+                other competitors
+              </li>
+              <li>
+                Conducted in-depth research, created, and delivered design
+                solutions from scratch, including both mobile and web platforms.
+              </li>
+              <li>
+                Worked in a cross-functional team to test and refine the design
+                solutions based on users&apos; and clients&apos; feedback until
+                they achieved the desired outcomes.
+              </li>
+              <li>
+                Maintained 100% client satisfaction by ensuring that all
+                projects meet quality and deadlines.
+              </li>
+            </ul>
+          </div>
+          <div className='mt-10 lg:mt-12'>
+            <span className='text-xl font-semibold'>GRAPHIC DESIGNER</span> |
+            Tobi Streetwear | Part-time
+          </div>
+          <div className='mt-2'>Nov 2020 - Jan 2021</div>
+          <div className='border-t border-white mt-4 pt-3 pl-7'>
+            <ul className='list-disc space-y-3'>
+              <li>
+                Teamed up with the fashion designer and the creative director to
+                create illustrations for clothing, accessories, and social
+                media.
+              </li>
+            </ul>
+          </div>
+          <div className='mt-10 lg:mt-12'>
+            <span className='text-xl font-semibold'>GRAPHIC DESIGNER</span> |
+            IMC+ | Intern
+          </div>
+          <div className='mt-2'>July 2020 - Oct 2020</div>
+          <div className='border-t border-white mt-4 pt-3 pl-7'>
+            <ul className='list-disc space-y-3'>
+              <li>
+                Collaborated with the marketing team to create social posts for
+                the fanpage of K-Group&apos;s App.
               </li>
             </ul>
           </div>
@@ -93,25 +146,25 @@ export default function AboutMe() {
         <div>
           <div
             className='text-2xl lg:text-3xl'
-            style={{ fontFamily: 'Panchang-Regular' }}
+            style={{ fontFamily: 'Panchang-Semibold' }}
           >
             Education
           </div>
           <div className='space-y-3'>
             <div>
-              <div className='mt-7 text-xl'>
+              <div className='mt-7 text-xl font-semibold'>
                 UNIVERSITY OF ARCHITECTURE HCMC
               </div>
               <div className='mt-2'>BFA in Graphic Design (2017- 2021)</div>
             </div>
             <div>
-              <div className='mt-7 text-xl'>COURSERA</div>
+              <div className='mt-7 text-xl font-semibold'>COURSERA</div>
               <div className='mt-2'>
                 Google UX Design Professional Certificate (2023)
               </div>
             </div>
             <div>
-              <div className='mt-7 text-xl'>
+              <div className='mt-7 text-xl font-semibold'>
                 NGUYEN QUANG DIEU HIGH SCHOOL FOR THE GIFTED
               </div>
               <div className='mt-2'>
@@ -119,6 +172,36 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
+          <div
+            className='text-2xl lg:text-3xl mt-10 lg:mt-14'
+            style={{ fontFamily: 'Panchang-Semibold' }}
+          >
+            Tools
+          </div>
+          <ul className='mt-3 lg:mt-6 list-disc space-y-1'>
+            <li className='ml-8'>Figma</li>
+            <li className='ml-8'>Adobe XD</li>
+            <li className='ml-8'>Adobe Illustrator</li>
+            <li className='ml-8'>Adobe Photoshop</li>
+            <li className='ml-8'>Adobe InDesign</li>
+          </ul>
+          <div
+            className='text-2xl lg:text-3xl mt-10 lg:mt-14'
+            style={{ fontFamily: 'Panchang-Semibold' }}
+          >
+            Skills
+          </div>
+          <ul className='mt-3 lg:mt-6 list-disc space-y-1'>
+            <li className='ml-8'>UI/ Interaction design</li>
+            <li className='ml-8'>User research</li>
+            <li className='ml-8'>Wireframing</li>
+            <li className='ml-8'>Prototyping</li>
+            <li className='ml-8'>Usability testing</li>
+            <li className='ml-8'>Critical thinking</li>
+            <li className='ml-8'>Communication skills</li>
+            <li className='ml-8'>Time management</li>
+            <li className='ml-8'>Cross-functional Collaboration</li>
+          </ul>
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useRef } from 'react';
 import Link from 'next/link';
 import { Navigation } from 'swiper/modules';
+import { worksList } from '@/components/Work';
 
 export default function ProjectLayout({
   children
@@ -79,181 +80,45 @@ export default function ProjectLayout({
             }
           }}
         >
-          <SwiperSlide>
-            <div className='border border-white rounded-lg overflow-hidden'>
-              <Image
-                alt=''
-                src='/order_cake.svg'
-                width={0}
-                height={0}
-                className='w-full h-[250px] object-cover'
-              />
-              <div className='px-5 py-8'>
-                <div
-                  className='text-lg lg:text-2xl'
-                  style={{ fontFamily: 'Panchang-Regular' }}
-                >
-                  <p style={{ fontFamily: 'Panchang-Semibold' }}>SUGARLAND</p>
-                </div>
-                <div className='mt-2'>
-                  A system to tackle motorbike parking problem in Vietnam
-                </div>
-                <Link
-                  href={''}
-                  className=' bg-white text-black px-4 py-2 flex items-center w-fit rounded-full mt-6'
-                >
-                  VIEW CASE
+          {worksList.map((item, index) => {
+            return (
+              <SwiperSlide key={index}>
+                <div className='border border-white rounded-lg overflow-hidden'>
                   <Image
-                    className='inline ml-3'
-                    alt=''
-                    src='/arrow_right.svg'
-                    width={26}
-                    height={18}
+                    alt={item.name}
+                    src={item.thumbnail}
+                    width={0}
+                    height={0}
+                    className='w-full h-[250px] object-cover'
                   />
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className='border border-white rounded-lg overflow-hidden'>
-              <Image
-                alt=''
-                src='/order_cake.svg'
-                width={0}
-                height={0}
-                className='w-full h-[250px] object-cover'
-              />
-              <div className='px-5 py-8'>
-                <div
-                  className='text-lg lg:text-2xl'
-                  style={{ fontFamily: 'Panchang-Regular' }}
-                >
-                  <p style={{ fontFamily: 'Panchang-Semibold' }}>SUGARLAND</p>
+                  <div className='px-5 py-8'>
+                    <div
+                      className='text-lg lg:text-2xl'
+                      style={{ fontFamily: 'Panchang-Regular' }}
+                    >
+                      <p style={{ fontFamily: 'Panchang-Semibold' }}>
+                        {item.name}
+                      </p>
+                    </div>
+                    <div className='mt-2'>{item.desc}</div>
+                    <Link
+                      href={item.link}
+                      className=' bg-white text-black px-4 py-2 flex items-center w-fit rounded-full mt-6'
+                    >
+                      VIEW CASE
+                      <Image
+                        className='inline ml-3'
+                        alt=''
+                        src='/arrow_right.svg'
+                        width={26}
+                        height={18}
+                      />
+                    </Link>
+                  </div>
                 </div>
-                <div className='mt-2'>
-                  A system to tackle motorbike parking problem in Vietnam
-                </div>
-                <Link
-                  href={''}
-                  className=' bg-white text-black px-4 py-2 flex items-center w-fit rounded-full mt-6'
-                >
-                  VIEW CASE
-                  <Image
-                    className='inline ml-3'
-                    alt=''
-                    src='/arrow_right.svg'
-                    width={26}
-                    height={18}
-                  />
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className='border border-white rounded-lg overflow-hidden'>
-              <Image
-                alt=''
-                src='/order_cake.svg'
-                width={0}
-                height={0}
-                className='w-full h-[250px] object-cover'
-              />
-              <div className='px-5 py-8'>
-                <div
-                  className='text-lg lg:text-2xl'
-                  style={{ fontFamily: 'Panchang-Regular' }}
-                >
-                  <p style={{ fontFamily: 'Panchang-Semibold' }}>SUGARLAND</p>
-                </div>
-                <div className='mt-2'>
-                  A system to tackle motorbike parking problem in Vietnam
-                </div>
-                <Link
-                  href={''}
-                  className=' bg-white text-black px-4 py-2 flex items-center w-fit rounded-full mt-6'
-                >
-                  VIEW CASE
-                  <Image
-                    className='inline ml-3'
-                    alt=''
-                    src='/arrow_right.svg'
-                    width={26}
-                    height={18}
-                  />
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className='border border-white rounded-lg overflow-hidden'>
-              <Image
-                alt=''
-                src='/order_cake.svg'
-                width={0}
-                height={0}
-                className='w-full h-[250px] object-cover'
-              />
-              <div className='px-5 py-8'>
-                <div
-                  className='text-lg lg:text-2xl'
-                  style={{ fontFamily: 'Panchang-Regular' }}
-                >
-                  <p style={{ fontFamily: 'Panchang-Semibold' }}>SUGARLAND</p>
-                </div>
-                <div className='mt-2'>
-                  A system to tackle motorbike parking problem in Vietnam
-                </div>
-                <Link
-                  href={''}
-                  className=' bg-white text-black px-4 py-2 flex items-center w-fit rounded-full mt-6'
-                >
-                  VIEW CASE
-                  <Image
-                    className='inline ml-3'
-                    alt=''
-                    src='/arrow_right.svg'
-                    width={26}
-                    height={18}
-                  />
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className='border border-white rounded-lg overflow-hidden'>
-              <Image
-                alt=''
-                src='/order_cake.svg'
-                width={0}
-                height={0}
-                className='w-full h-[250px] object-cover'
-              />
-              <div className='px-5 py-8'>
-                <div
-                  className='text-lg lg:text-2xl'
-                  style={{ fontFamily: 'Panchang-Regular' }}
-                >
-                  <p style={{ fontFamily: 'Panchang-Semibold' }}>SUGARLAND</p>
-                </div>
-                <div className='mt-2'>
-                  A system to tackle motorbike parking problem in Vietnam
-                </div>
-                <Link
-                  href={''}
-                  className=' bg-white text-black px-4 py-2 flex items-center w-fit rounded-full mt-6'
-                >
-                  VIEW CASE
-                  <Image
-                    className='inline ml-3'
-                    alt=''
-                    src='/arrow_right.svg'
-                    width={26}
-                    height={18}
-                  />
-                </Link>
-              </div>
-            </div>
-          </SwiperSlide>
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </div>
     </div>

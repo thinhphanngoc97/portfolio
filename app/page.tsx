@@ -1,5 +1,7 @@
+'use client';
+import { DesignShot } from '@/components/DesignShot';
+import { Work } from '@/components/Work';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -56,76 +58,8 @@ export default function Home() {
       </div>
       <div className='mt-20 lg:mt-40'>
         <div className='text-xl lg:text-3xl font-semibold'>SELECTED WORK</div>
-        <div className='mt-5 lg:mt-10 border rounded-xl border-white p-6 lg:p-10 flex flex-col lg:flex-row gap-10 bg-black'>
-          <div className='flex-1 flex flex-col justify-center items-start'>
-            <div
-              className='text-lg lg:text-3xl'
-              style={{ fontFamily: 'Panchang-Bold' }}
-            >
-              LINGOOD
-            </div>
-            <div className='mt-1 text-gray-400'>August 2021</div>
-            <div className='mt-4'>A learning English app for children</div>
-            <Link
-              href={'/project/lingood'}
-              className='bg-white text-black px-4 py-2 flex items-center rounded-full mt-6'
-            >
-              VIEW CASE
-              <Image
-                className='inline ml-3'
-                alt=''
-                src='/arrow_right.svg'
-                width={26}
-                height={18}
-              />
-            </Link>
-          </div>
-          <div className='w-full lg:w-1/2'>
-            <Image
-              className='inline'
-              alt='Lingood'
-              src='/lingood.svg'
-              width={0}
-              height={0}
-              style={{ width: '100%', objectFit: 'cover' }}
-            />
-          </div>
-        </div>
-        <div className='mt-5 lg:mt-10 border rounded-xl border-white p-6 lg:p-10 flex flex-col lg:flex-row gap-10 bg-black'>
-          <div className='flex-1 flex flex-col justify-center items-start'>
-            <div
-              className='text-lg lg:text-3xl'
-              style={{ fontFamily: 'Panchang-Bold' }}
-            >
-              SUGALAND
-            </div>
-            <div className='mt-1 text-gray-400'>August 2021</div>
-            <div className='mt-4'>A customizable cake website</div>
-            <Link
-              href={'/project/sugarland'}
-              className='bg-white text-black px-4 py-2 flex items-center rounded-full mt-6'
-            >
-              VIEW CASE
-              <Image
-                className='inline ml-3'
-                alt=''
-                src='/arrow_right.svg'
-                width={26}
-                height={18}
-              />
-            </Link>
-          </div>
-          <div className='w-full lg:w-1/2'>
-            <Image
-              className='inline'
-              alt='Sugarland'
-              src='/order_cake.svg'
-              width={0}
-              height={0}
-              style={{ width: '100%', objectFit: 'cover' }}
-            />
-          </div>
-        </div>
+        <Work />
+        <DesignShot />
       </div>
     </div>
   );

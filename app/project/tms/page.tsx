@@ -120,7 +120,7 @@ export default function SugarLand() {
           </div>
         </div>
       </div>
-      <div className='bg-white py-7 lg:py-14 text-black'>
+      <div className='bg-white pt-7 lg:pt-14 pb-5 lg:pb-10 text-black'>
         <div className='container mx-auto px-4 relative'>
           <Image
             className='absolute top-0 -left-10'
@@ -135,19 +135,213 @@ export default function SugarLand() {
           >
             <p style={{ fontFamily: 'Panchang-Semibold' }}>Design System</p>
           </div>
-          <div className='mt-8 lg:mt-16'>
-            {/* <Image
-              className='w-full object-cover'
-              alt=''
-              src='/lingood/9.svg'
-              width={0}
-              height={0}
-            /> */}
+          <div className='mt-3 lg:mt-6'>
+            <div className='text-lg lg:text-2xl font-semibold'>COLORS</div>
+            <div className='mt-1 text-lg lg:text-xl'>Primary colors</div>
+            <div className='mt-2 lg:mt-4'>
+              <Image
+                className='w-auto h-auto object-cover'
+                alt=''
+                src='/tms/22.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+            <div className='mt-10 lg:mt-20 text-lg lg:text-xl'>
+              Secondary colors
+            </div>
+            <div className='mt-2 lg:mt-4'>
+              <Image
+                className='w-auto h-auto object-cover'
+                alt=''
+                src='/tms/23.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+            <div className='mt-10 lg:mt-20 text-lg lg:text-xl'>
+              Neutral colors
+            </div>
+            <div className='mt-2 lg:mt-4'>
+              <Image
+                className='w-auto h-auto object-cover'
+                alt=''
+                src='/tms/24.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+            <div className='mt-10 lg:mt-20 text-lg lg:text-xl'>
+              Status colors
+            </div>
+            <div className='mt-2 lg:mt-4'>
+              <Image
+                className='w-auto h-auto object-cover'
+                alt=''
+                src='/tms/25.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+            <div className='text-lg lg:text-2xl font-semibold mt-10 lg:mt-20'>
+              TYPOGRAPHY
+            </div>
           </div>
         </div>
       </div>
+      <div className='container mx-auto px-4 pt-5 lg:pt-10 pb-10 lg:pb-20'>
+        <Image
+          className='w-full object-cover'
+          alt=''
+          src='/tms/26.svg'
+          width={0}
+          height={0}
+        />
+      </div>
       <div className='bg-white py-7 lg:py-14 text-black'>
-        <div className='container mx-auto px-4 relative'>
+        <div className='container mx-auto px-4'>
+          <div className='text-lg lg:text-2xl font-semibold'>ICON</div>
+          <div className='flex justify-center'>
+            <Image
+              className='w-auto object-cover mt-5 lg:mt-10'
+              alt=''
+              src='/tms/27.svg'
+              width={0}
+              height={0}
+            />
+          </div>
+          <div className='text-lg lg:text-2xl font-semibold mt-10 lg:mt-20'>
+            GRID SYSTEM
+          </div>
+          <div className='mt-2 text-lg lg:text-xl'>
+            Desktop (1280) | 12 columns | 40px Margin | 20px Gutter
+          </div>
+          <div className='flex justify-center'>
+            <Image
+              className='w-full object-cover mt-5 lg:mt-10'
+              alt=''
+              src='/tms/40.svg'
+              width={0}
+              height={0}
+            />
+          </div>
+          <div className='text-lg lg:text-2xl font-semibold mt-10 lg:mt-20'>
+            UI KIT
+          </div>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-20'>
+            <div>
+              <div className='text-lg lg:text-xl mt-3 lg:mt-5'>Buttons</div>
+              <Image
+                className='w-full object-cover mt-3'
+                alt=''
+                src='/tms/28.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+            <div>
+              <div className='text-lg lg:text-xl mt-3 lg:mt-5'>Sliders</div>
+              <Image
+                className='w-full object-cover mt-3'
+                alt=''
+                src='/tms/29.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+          </div>
+          <div className='mt-5 lg:mt-10 grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-14'>
+            <div>
+              <div className='text-lg lg:text-xl mt-3 lg:mt-5'>Tags</div>
+              <Image
+                className='w-full object-cover mt-3'
+                alt=''
+                src='/tms/30.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+            <div className='col-span-full lg:col-span-2'>
+              <div className='text-lg lg:text-xl mt-3 lg:mt-5'>Text inputs</div>
+              <Image
+                className='w-full object-cover mt-3'
+                alt=''
+                src='/tms/31.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+          </div>
+          <div className='mt-5 lg:mt-10 grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-14'>
+            <div className='col-span-full lg:col-span-2'>
+              <div className='text-lg lg:text-xl mt-3 lg:mt-5'>Date picker</div>
+              <Image
+                className='w-full object-cover mt-3'
+                alt=''
+                src='/tms/32.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+            <div>
+              <div className='text-lg lg:text-xl mt-3 lg:mt-5'>Tabs</div>
+              <Image
+                className='w-auto object-cover mt-3'
+                alt=''
+                src='/tms/33.svg'
+                width={0}
+                height={0}
+              />
+              <div className='text-lg lg:text-xl mt-8 lg:mt-16'>Tooltips</div>
+              <Image
+                className='w-auto object-cover mt-3'
+                alt=''
+                src='/tms/34.svg'
+                width={0}
+                height={0}
+              />
+              <div className='text-lg lg:text-xl mt-8 lg:mt-16'>Avatar</div>
+              <Image
+                className='w-auto object-cover mt-3'
+                alt=''
+                src='/tms/35.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+          </div>
+          <div className='mt-5 lg:mt-10 grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-14'>
+            <div className='col-span-full lg:col-span-2'>
+              <div className='text-lg lg:text-xl mt-3 lg:mt-5'>Menu bar</div>
+              <Image
+                className='w-full object-cover mt-3'
+                alt=''
+                src='/tms/36.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+            <div>
+              <div className='text-lg lg:text-xl mt-3 lg:mt-5'>Drop down</div>
+              <Image
+                className='w-auto object-cover mt-3'
+                alt=''
+                src='/tms/37.svg'
+                width={0}
+                height={0}
+              />
+              <div className='text-lg lg:text-xl mt-8 lg:mt-16'>Checkboxes</div>
+              <Image
+                className='w-auto object-cover mt-3'
+                alt=''
+                src='/tms/38.svg'
+                width={0}
+                height={0}
+              />
+            </div>
+          </div>
+        </div>
+        <div className='container mx-auto px-4 relative mt-10 lg:mt-20'>
           <Image
             className='absolute top-0 -left-10'
             alt=''
@@ -164,13 +358,13 @@ export default function SugarLand() {
             </p>
           </div>
           <div className='mt-8 lg:mt-16'>
-            {/* <Image
-              className='w-full object-cover'
+            <Image
+              className='w-full object-cover px-20'
               alt=''
-              src='/lingood/8.svg'
+              src='/tms/39.svg'
               width={0}
               height={0}
-            /> */}
+            />
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ export default function SugarLand() {
           <Image
             className='inline -z-10 relative w-full object-cover'
             alt='Sugarland'
-            src='/order_cake.svg'
+            src='/work/sugarland.svg'
             width={0}
             height={0}
           />
