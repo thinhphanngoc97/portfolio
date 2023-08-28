@@ -83,7 +83,12 @@ export default function ProjectLayout({
           {worksList.map((item, index) => {
             return (
               <SwiperSlide key={index} className='!h-auto'>
-                <div className='border border-white rounded-lg overflow-hidden h-full'>
+                <Link
+                  href={item.link}
+                  className={`${
+                    item.comingSoon ? 'pointer-events-none' : ''
+                  } block border border-white rounded-lg overflow-hidden h-full`}
+                >
                   <Image
                     alt={item.name}
                     src={item.thumbnail}
@@ -101,21 +106,20 @@ export default function ProjectLayout({
                       </p>
                     </div>
                     <div className='mt-2'>{item.desc}</div>
-                    <Link
-                      href={item.link}
-                      className=' bg-white text-black px-4 py-2 flex items-center w-fit rounded-full mt-6'
-                    >
-                      VIEW CASE
-                      <Image
-                        className='inline ml-3'
-                        alt=''
-                        src='/arrow_right.svg'
-                        width={26}
-                        height={18}
-                      />
-                    </Link>
+                    <div className=' bg-white text-black px-4 py-2 flex items-center w-fit rounded-full mt-6'>
+                      {item.comingSoon ? 'COMING SOON' : 'VIEW CASE'}
+                      {!item.comingSoon && (
+                        <Image
+                          className='inline ml-3'
+                          alt=''
+                          src='/arrow_right.svg'
+                          width={26}
+                          height={18}
+                        />
+                      )}
+                    </div>
                   </div>
-                </div>
+                </Link>
               </SwiperSlide>
             );
           })}

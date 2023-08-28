@@ -15,7 +15,7 @@ export function Footer() {
         LOOKING FOR AN AWESOME GROUP OF PEOPLE TO WORK WITH. FEEL FREE TO REACH
         OUT TO ME.
         <Link
-          href={''}
+          href={'mailto:handoan6299@gmail.com'}
           className='bg-white text-black px-4 py-2 flex items-center rounded-full text-base whitespace-nowrap min-w-fit'
         >
           LET&apos;S CONNECT
@@ -31,10 +31,16 @@ export function Footer() {
       <div className='py-8 flex flex-col-reverse lg:flex-row gap-4 items-center'>
         <span>Copyright © 2023 Han Doan</span>
         <div className='lg:ml-auto flex gap-5 lg:gap-10 underline font-extralight underline-offset-4'>
-          <Link href={'/'}>Email</Link>
-          <Link href={'/'}>Behance</Link>
-          <Link href={'/'}>LinkedIn</Link>
-          <Link href={'/'}>Dribble</Link>
+          <Link href={'mailto:handoan6299@gmail.com'}>Email</Link>
+          <Link target='_blank' href={'https://www.behance.net/handoan6297761'}>
+            Behance
+          </Link>
+          <Link target='_blank' href={'https://www.linkedin.com/in/handoan62/'}>
+            LinkedIn
+          </Link>
+          <Link target='_blank' href={'https://dribbble.com/handoan6299'}>
+            Dribble
+          </Link>
         </div>
       </div>
     </footer>

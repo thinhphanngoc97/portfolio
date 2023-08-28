@@ -16,9 +16,9 @@ export default function SugarLand() {
         </div>
         <div className='mt-4 lg:mt-8'>
           <p className='w-full lg:w-3/5'>
-            A website selling cakes with the feature of decorating cakes
-            according to your request, with a minimalist style interface,
-            elegant and eye-catching
+            LINGOOD is a fun app for kids (6-12) to learn English with
+            interactive books and games. Cute Bookie friends help learners form
+            learning habits with tasks and challenges.
           </p>
         </div>
         <div className='mt-10 lg:mt-20 lg:-mx-14'>

@@ -14,6 +14,9 @@ export function DesignShot() {
     },
     {
       thumbnail: '/design_shot/4.svg'
+    },
+    {
+      thumbnail: '/design_shot/5.svg'
     }
   ];
 
@@ -48,7 +51,7 @@ export function DesignShot() {
       <div className='text-center mt-5 lg:mt-10'>
         <button
           hidden={limit >= designShots.length}
-          className='border border-white rounded-full px-4 py-2'
+          className='border border-white rounded-full px-4 py-2 hover:bg-white hover:text-black'
           onClick={onLoadMore}
         >
           Load more

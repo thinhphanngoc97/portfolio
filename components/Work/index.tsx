@@ -6,7 +6,7 @@ export const worksList = [
     name: 'TOP MANAGEMENT SYSTEM',
     thumbnail: '/tms/1.svg',
     time: 'On going',
-    desc: 'A learning English app for children',
+    desc: 'A human management system of TGL Solutions',
     link: '/project/tms'
   },
   {
@@ -21,7 +21,8 @@ export const worksList = [
     thumbnail: '/work/coteccons.svg',
     time: 'On going',
     desc: 'A construction e-learning flatform',
-    link: '/project/coteccons'
+    link: '/project/coteccons',
+    comingSoon: true
   },
   {
     name: 'TGL WEBSITE',
@@ -44,44 +45,48 @@ export function Work() {
     <div className='[&>*:nth-child(1)]:mt-5 lg:[&>*:nth-child(1)]:mt-10'>
       {worksList.map((item, index) => {
         return (
-          <div
+          <Link
             key={index}
-            className='mt-10 lg:mt-14 border rounded-xl border-white p-6 lg:p-10 flex flex-col lg:flex-row gap-10 bg-black'
+            href={item.link}
+            className={`${
+              item.comingSoon ? 'pointer-events-none' : ''
+            } block mt-10 lg:mt-14`}
           >
-            <div className='flex-1 flex flex-col justify-center items-start'>
-              <div
-                className='text-xl lg:text-4xl'
-                style={{ fontFamily: 'Panchang-Bold' }}
-              >
-                {item.name}
-              </div>
-              <div className='mt-1 text-gray-400'>{item.time}</div>
-              <div className='mt-4'>{item.desc}</div>
-              <Link
-                href={item.link}
-                className='bg-white text-black px-4 py-2 flex items-center rounded-full mt-6'
-              >
-                VIEW CASE
+            <span className='border rounded-xl border-white p-6 lg:p-10 flex flex-col lg:flex-row gap-10 bg-black'>
+              <span className='flex-1 flex flex-col justify-center items-start'>
+                <span
+                  className='block text-xl lg:text-4xl'
+                  style={{ fontFamily: 'Panchang-Semibold' }}
+                >
+                  {item.name}
+                </span>
+                <span className='block mt-1 text-gray-400'>{item.time}</span>
+                <span className='block mt-4'>{item.desc}</span>
+                <span className='bg-white text-black px-4 py-2 flex items-center rounded-full mt-6'>
+                  {item.comingSoon ? 'COMING SOON' : 'VIEW CASE'}
+                  {!item.comingSoon && (
+                    <Image
+                      className='inline ml-3'
+                      alt=''
+                      src='/arrow_right.svg'
+                      width={26}
+                      height={18}
+                    />
+                  )}
+                </span>
+              </span>
+              <span className='block w-full lg:w-1/2'>
                 <Image
-                  className='inline ml-3'
-                  alt=''
-                  src='/arrow_right.svg'
-                  width={26}
-                  height={18}
+                  className='inline'
+                  alt={item.name}
+                  src={item.thumbnail}
+                  width={0}
+                  height={0}
+                  style={{ width: '100%', objectFit: 'cover' }}
                 />
-              </Link>
-            </div>
-            <div className='w-full lg:w-1/2'>
-              <Image
-                className='inline'
-                alt={item.name}
-                src={item.thumbnail}
-                width={0}
-                height={0}
-                style={{ width: '100%', objectFit: 'cover' }}
-              />
-            </div>
-          </div>
+              </span>
+            </span>
+          </Link>
         );
       })}
     </div>

@@ -18,9 +18,9 @@ export default function SugarLand() {
         </div>
         <div className='mt-4 lg:mt-8'>
           <p className='w-full lg:w-3/5'>
-            A website selling cakes with the feature of decorating cakes
-            according to your request, with a minimalist style interface,
-            elegant and eye-catching
+            TMS is a software by TGL Solutions for human resource management
+            since 2020. The TMS team improved the interface and functionality
+            based on user feedback.
           </p>
         </div>
         <div className='mt-10 lg:mt-20 lg:-mx-14'>
@@ -650,6 +650,15 @@ export default function SugarLand() {
               className='w-full object-cover mt-5 lg:mt-10'
               alt=''
               src='/tms/16.svg'
+              width={0}
+              height={0}
+            />
+          </div>
+          <div>
+            <Image
+              className='w-full object-cover mt-5 lg:mt-10'
+              alt=''
+              src='/tms/41.svg'
               width={0}
               height={0}
             />

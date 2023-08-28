@@ -23,7 +23,9 @@ export function NavBar() {
         >
           ABOUT
         </Link>
-        <Link href={'/'}>RESUME</Link>
+        <Link target='_blank' href={'/CV_DoanNgocHan.pdf'}>
+          RESUME
+        </Link>
       </div>
     </header>
   );

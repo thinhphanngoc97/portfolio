@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function AboutMe() {
   return (
-    <div className='pb-20 lg:pb-40 container mx-auto px-4'>
+    <div className='pb-10 lg:pb-40 container mx-auto px-4'>
       <div className='lg:mt-20 flex flex-col lg:flex-row gap-5'>
         <div
           className='text-lg md:text-3xl lg:text-5xl flex-1'
@@ -56,13 +56,23 @@ export default function AboutMe() {
             anything :)
             <br />
             <br />
-            handoan6299@gmail.com
+            <Link href={'mailto:handoan6299@gmail.com'}>
+              handoan6299@gmail.com
+            </Link>
             <br />
-            <Link href={'/'} className='underline underline-offset-2'>
+            <Link
+              target='_blank'
+              href={'https://dribbble.com/handoan6299'}
+              className='underline underline-offset-2'
+            >
               Dribble
             </Link>
             <br />
-            <Link href={'/'} className='underline underline-offset-2'>
+            <Link
+              target='_blank'
+              href={'https://www.behance.net/handoan6297761'}
+              className='underline underline-offset-2'
+            >
               Behance
             </Link>
           </p>

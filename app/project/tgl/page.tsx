@@ -18,9 +18,9 @@ export default function SugarLand() {
         </div>
         <div className='mt-4 lg:mt-8'>
           <p className='w-full lg:w-3/5'>
-            A website selling cakes with the feature of decorating cakes
-            according to your request, with a minimalist style interface,
-            elegant and eye-catching
+            A company’s website with new, fun brand identity which reflects its
+            vibrant and dynamic work environment. The website boosts
+            credibility, which helps the company get customers and big projects.
           </p>
         </div>
         <div className='mt-10 lg:mt-20 lg:-mx-14'>
@@ -38,7 +38,7 @@ export default function SugarLand() {
           <Image
             className='absolute top-0 -left-10'
             alt=''
-            src='/icon_star_3.svg'
+            src='/icon_star_2.svg'
             width={44}
             height={44}
           />
@@ -91,7 +91,33 @@ export default function SugarLand() {
           <Image
             className='absolute top-0 -left-10'
             alt=''
-            src='/icon_star_3.svg'
+            src='/icon_star_2.svg'
+            width={44}
+            height={44}
+          />
+          <div
+            className='text-2xl lg:text-4xl'
+            style={{ fontFamily: 'Panchang-Regular' }}
+          >
+            <p style={{ fontFamily: 'Panchang-Semibold' }}>Project Goals</p>
+          </div>
+          <div>
+            <Image
+              className='w-full object-cover mt-5 lg:mt-10'
+              alt=''
+              src='/tgl/13.svg'
+              width={0}
+              height={0}
+            />
+          </div>
+        </div>
+      </div>
+      <div className='bg-white pb-10 lg:pb-20 text-black'>
+        <div className='container mx-auto px-4 relative'>
+          <Image
+            className='absolute top-0 -left-10'
+            alt=''
+            src='/icon_star_2.svg'
             width={44}
             height={44}
           />
@@ -173,7 +199,7 @@ export default function SugarLand() {
           <Image
             className='absolute top-0 -left-10'
             alt=''
-            src='/icon_star_3.svg'
+            src='/icon_star_2.svg'
             width={44}
             height={44}
           />
@@ -201,7 +227,7 @@ export default function SugarLand() {
           <Image
             className='absolute top-0 -left-10'
             alt=''
-            src='/icon_star_3.svg'
+            src='/icon_star_2.svg'
             width={44}
             height={44}
           />
