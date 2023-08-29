@@ -38,9 +38,10 @@ export default function AboutMe() {
         </div>
         <div className='lg:mt-14 flex-1'>
           <p>
-            ‍Hello, I&apos;m Han Doan, a designer with an edge of UI/UX design
-            based in Ho Chi Minh city, Vietnam. I have a degree in Graphic
-            Designer from the University of Architecture HCMC. <br />
+            Hello, I&apos;m Han Doan, a designer with an edge in UI/UX design
+            based in Ho Chi Minh City, Vietnam. I have a degree in Graphic
+            Designer from the University of Architecture HCMC.
+            <br />
             <br />
             I&apos;m currently a UX/UI designer at TGL Solutions. My past
             experiences include working as a Graphic Designer at an agency and a
@@ -56,25 +57,23 @@ export default function AboutMe() {
             anything :)
             <br />
             <br />
-            <Link href={'mailto:handoan6299@gmail.com'}>
-              handoan6299@gmail.com
-            </Link>
+            <a href={'mailto:handoan6299@gmail.com'}>handoan6299@gmail.com</a>
             <br />
-            <Link
+            <a
               target='_blank'
               href={'https://dribbble.com/handoan6299'}
               className='underline underline-offset-2'
             >
               Dribble
-            </Link>
+            </a>
             <br />
-            <Link
+            <a
               target='_blank'
               href={'https://www.behance.net/handoan6297761'}
               className='underline underline-offset-2'
             >
               Behance
-            </Link>
+            </a>
           </p>
         </div>
       </div>
@@ -90,7 +89,7 @@ export default function AboutMe() {
             <span className='text-xl font-semibold'>UX/UI DESIGNER</span> | TGL
             Solutions | Full-time
           </div>
-          <div className='mt-2'>Oct 2021 - Present</div>
+          <div className='mt-2'>Mar 2022 - Present</div>
           <div className='border-t border-white mt-4 pt-3 pl-7'>
             <ul className='list-disc space-y-3'>
               <li>

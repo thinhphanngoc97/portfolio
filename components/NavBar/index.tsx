@@ -23,7 +23,7 @@ export function NavBar() {
         >
           ABOUT
         </Link>
-        <Link target='_blank' href={'/CV_DoanNgocHan.pdf'}>
+        <Link target='_blank' href={'/CV_DoanNgocHan_UXUIDesigner.pdf'}>
           RESUME
         </Link>
       </div>

@@ -114,7 +114,9 @@ export default function SugarLand() {
             PARENTS
           </div>
         </div>
-        <div className='mt-2'>Conducted an online survey among 10 people</div>
+        <div className='mt-2'>
+          Conducted an online survey among {persona == 1 ? '10' : '50'} people
+        </div>
         <div className='mt-5 lg:mt-10'>
           <Image
             className='w-full object-cover'
