@@ -18,6 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      <meta
+        property='og:image'
+        content='https://handoan.vercel.app/about_me.svg'
+      />
       <body className={inter.className}>
         <NavBar />
         <main className='text-sm lg:text-lg'>{children}</main>

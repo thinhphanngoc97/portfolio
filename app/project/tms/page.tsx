@@ -142,7 +142,7 @@ export default function SugarLand() {
               <Image
                 className='w-auto h-auto object-cover'
                 alt=''
-                src='/tms/22.svg'
+                src='/tms/23.svg'
                 width={0}
                 height={0}
               />
@@ -154,7 +154,7 @@ export default function SugarLand() {
               <Image
                 className='w-auto h-auto object-cover'
                 alt=''
-                src='/tms/23.svg'
+                src='/tms/24.svg'
                 width={0}
                 height={0}
               />
@@ -166,7 +166,7 @@ export default function SugarLand() {
               <Image
                 className='w-auto h-auto object-cover'
                 alt=''
-                src='/tms/24.svg'
+                src='/tms/25.svg'
                 width={0}
                 height={0}
               />
@@ -178,7 +178,7 @@ export default function SugarLand() {
               <Image
                 className='w-auto h-auto object-cover'
                 alt=''
-                src='/tms/25.svg'
+                src='/tms/26.svg'
                 width={0}
                 height={0}
               />
@@ -193,7 +193,7 @@ export default function SugarLand() {
         <Image
           className='w-full object-cover'
           alt=''
-          src='/tms/26.svg'
+          src='/tms/27.svg'
           width={0}
           height={0}
         />
@@ -205,7 +205,7 @@ export default function SugarLand() {
             <Image
               className='w-auto object-cover mt-5 lg:mt-10'
               alt=''
-              src='/tms/27.svg'
+              src='/tms/28.svg'
               width={0}
               height={0}
             />
@@ -220,7 +220,7 @@ export default function SugarLand() {
             <Image
               className='w-full object-cover mt-5 lg:mt-10'
               alt=''
-              src='/tms/40.svg'
+              src='/tms/41.svg'
               width={0}
               height={0}
             />
@@ -234,7 +234,7 @@ export default function SugarLand() {
               <Image
                 className='w-full object-cover mt-3'
                 alt=''
-                src='/tms/28.svg'
+                src='/tms/29.svg'
                 width={0}
                 height={0}
               />
@@ -244,7 +244,7 @@ export default function SugarLand() {
               <Image
                 className='w-full object-cover mt-3'
                 alt=''
-                src='/tms/29.svg'
+                src='/tms/30.svg'
                 width={0}
                 height={0}
               />
@@ -256,7 +256,7 @@ export default function SugarLand() {
               <Image
                 className='w-full object-cover mt-3'
                 alt=''
-                src='/tms/30.svg'
+                src='/tms/31.svg'
                 width={0}
                 height={0}
               />
@@ -266,7 +266,7 @@ export default function SugarLand() {
               <Image
                 className='w-full object-cover mt-3'
                 alt=''
-                src='/tms/31.svg'
+                src='/tms/32.svg'
                 width={0}
                 height={0}
               />
@@ -278,7 +278,7 @@ export default function SugarLand() {
               <Image
                 className='w-full object-cover mt-3'
                 alt=''
-                src='/tms/32.svg'
+                src='/tms/33.svg'
                 width={0}
                 height={0}
               />
@@ -288,7 +288,7 @@ export default function SugarLand() {
               <Image
                 className='w-auto object-cover mt-3'
                 alt=''
-                src='/tms/33.svg'
+                src='/tms/34.svg'
                 width={0}
                 height={0}
               />
@@ -296,7 +296,7 @@ export default function SugarLand() {
               <Image
                 className='w-auto object-cover mt-3'
                 alt=''
-                src='/tms/34.svg'
+                src='/tms/35.svg'
                 width={0}
                 height={0}
               />
@@ -304,7 +304,7 @@ export default function SugarLand() {
               <Image
                 className='w-auto object-cover mt-3'
                 alt=''
-                src='/tms/35.svg'
+                src='/tms/36.svg'
                 width={0}
                 height={0}
               />
@@ -316,7 +316,7 @@ export default function SugarLand() {
               <Image
                 className='w-full object-cover mt-3'
                 alt=''
-                src='/tms/36.svg'
+                src='/tms/37.svg'
                 width={0}
                 height={0}
               />
@@ -326,7 +326,7 @@ export default function SugarLand() {
               <Image
                 className='w-auto object-cover mt-3'
                 alt=''
-                src='/tms/37.svg'
+                src='/tms/38.svg'
                 width={0}
                 height={0}
               />
@@ -334,7 +334,7 @@ export default function SugarLand() {
               <Image
                 className='w-auto object-cover mt-3'
                 alt=''
-                src='/tms/38.svg'
+                src='/tms/39.svg'
                 width={0}
                 height={0}
               />
@@ -361,7 +361,7 @@ export default function SugarLand() {
             <Image
               className='w-full object-cover px-20'
               alt=''
-              src='/tms/39.svg'
+              src='/tms/40.svg'
               width={0}
               height={0}
             />
@@ -658,15 +658,6 @@ export default function SugarLand() {
             <Image
               className='w-full object-cover mt-5 lg:mt-10'
               alt=''
-              src='/tms/41.svg'
-              width={0}
-              height={0}
-            />
-          </div>
-          <div>
-            <Image
-              className='w-full object-cover mt-5 lg:mt-10'
-              alt=''
               src='/tms/17.svg'
               width={0}
               height={0}
@@ -677,6 +668,15 @@ export default function SugarLand() {
               className='w-full object-cover mt-5 lg:mt-10'
               alt=''
               src='/tms/18.svg'
+              width={0}
+              height={0}
+            />
+          </div>
+          <div>
+            <Image
+              className='w-full object-cover mt-5 lg:mt-10'
+              alt=''
+              src='/tms/19.svg'
               width={0}
               height={0}
             />
@@ -693,7 +693,7 @@ export default function SugarLand() {
             <Image
               className='w-full object-cover mt-5 lg:mt-10'
               alt=''
-              src='/tms/19.svg'
+              src='/tms/20.svg'
               width={0}
               height={0}
             />
@@ -702,7 +702,7 @@ export default function SugarLand() {
             <Image
               className='w-full object-cover mt-5 lg:mt-10'
               alt=''
-              src='/tms/20.svg'
+              src='/tms/21.svg'
               width={0}
               height={0}
             />
@@ -730,7 +730,7 @@ export default function SugarLand() {
             <Image
               className='w-full object-cover mt-5 lg:mt-10'
               alt=''
-              src='/tms/21.svg'
+              src='/tms/22.svg'
               width={0}
               height={0}
             />
